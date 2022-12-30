@@ -47,6 +47,14 @@ form label, form legend {
 
 }
 
+.aviso {
+
+    margin-top: 1px;
+    margin-bottom: 2px;
+    font-weight: bold;
+
+}
+
 .enviar {
 
     width: 20%;
@@ -87,5 +95,26 @@ form label, form legend {
 #copiar:hover {
 
     background: #008080;
+
+}
+
+.rodape {
+
+    width: 540px;
+    margin: 20px auto;
+
+}
+
+.rodape p {
+
+    display: inline-block;
+    margin-right: 3px;
+
+}
+
+.imagem {
+
+    width: 20px;
+    height: 20px;
 
 }
