@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+    <title>Decodificador</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="principal.css"> 
+</head>
+
+<body>
+
+    <header><h1 class="titulo">Decodificador</h1></header>
+
+<section class="formulario">
+    <form>
+        <fieldset>
+            <legend>Escolha o que fazer com o texto:</legend>
+
+            <select name="decod" id="decod">
+                <option value="criptografar">Criptografar</option>
+                <option value="descriptografar">Descriptografar</option>
+            </select>
+            <input type="text" id="decodificador" class="input-decodificador" required>
+        </fieldset>
+        
+        <button class="enviar" id="enviar">Enviar</button>
+    </form>
+
+    <textarea id="resultado" name="resultado" cols="70" rows="10" readonly></textarea>
+    <button id="copiar">Copiar Texto</button>
+</section>
+
+
+
+</div>
+
+</body>
+
+<script src="script.js"></script>
+</html>
